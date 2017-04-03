@@ -9,3 +9,7 @@ subprojects {
     apply plugin: 'java'
     sourceCompatibility  = 1.8
 }
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.0'
+}
